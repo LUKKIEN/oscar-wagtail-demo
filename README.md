@@ -17,7 +17,7 @@ Setup with Vagrant
 ### Installation
 Run the following commands:
 
-    git clone https://github.com/pgovers/oscar-wagtail-demo.git
+    git clone https://github.com/LUKKIEN/oscar-wagtail-demo.git
     cd oscar-wagtail-demo
     vagrant up
     vagrant ssh
@@ -38,7 +38,7 @@ Don't want to set up a whole VM to try out Wagtail? No problem.
 
 With PostgreSQL running (and configured to allow you to connect as the 'postgres' user - if not, you'll need to adjust the `createdb` line and the database settings in wagtaildemo/settings/base.py accordingly), run the following commands:
 
-    git clone https://github.com/pgovers/oscar-wagtail-demo.git
+    git clone https://github.com/LUKKIEN/oscar-wagtail-demo.git
     cd oscar-wagtail-demo
     virtualenv .
     source bin/activate
